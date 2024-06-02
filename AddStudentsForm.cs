@@ -62,7 +62,7 @@ namespace School_Manament_System
                     cmd.Parameters.AddWithValue("@ssection", ssection.SelectedItem.ToString());
                     cmd.Parameters.AddWithValue("@simage", simage.Text);
                     cmd.ExecuteNonQuery();
-                    MessageBox.Show("Student's data has been saved", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Student's data has been saved okei", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     conn.Close();
                     showtable();
                 } 
